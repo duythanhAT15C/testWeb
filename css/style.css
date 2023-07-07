@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  letter-spacing: -1px;
+}
+/* Toàn bộ background */
+/* .chung {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  padding: 40px;
+} */
+
+/*  */
+.bg-grey {
+  background: #f7f7f7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 40px 40px;
+}
+
+section > .container {
+  /* width: 1170px; */
+  margin: auto;
+  display: block;
+  padding: 15px 35px;
+}
+
+/* Phần thông tin cá nhân hàng trên */
+.content-top {
+  padding: 25px;
+}
+.img-certificate {
+  width: 100%;
+  align-items: center;
+}
+.main-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#nav-bar a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+#project a {
+  text-decoration: none;
+}
+body {
+  background-color: blue;
+}
